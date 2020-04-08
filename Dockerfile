@@ -12,6 +12,6 @@ RUN pip install -r requirements.txt
 
 ADD . .
 
-EXPOSE 3000
+EXPOSE 8050
 
 CMD ["python", "index.py"]
