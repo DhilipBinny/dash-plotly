@@ -27,7 +27,7 @@ PROJECTS  = [ dataset  for dataset, link in sample_datasets.items() ]
 PROJECT = "iris"
 
 # create app
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets, url_base_pathname='/dash/')
 app.config.suppress_callback_exceptions = True
 server = app.server
 

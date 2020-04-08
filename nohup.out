@@ -1,0 +1,1037 @@
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+116.15.25.75 - - [08/Apr/2020 09:08:20] "[37mGET / HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:21] "[37mGET /_dash-dependencies HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:21] "[37mGET /_dash-layout HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:21] "[37mGET /_dash-component-suites/dash_table/bundle.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:21] "[37mGET /_dash-component-suites/dash_core_components/dash_core_components-shared.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:21] "[37mGET /_dash-component-suites/dash_core_components/dash_core_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:21] "[37mGET /_dash-component-suites/dash_html_components/dash_html_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:22] "[37mGET /_favicon.ico?v=1.9.1 HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:22] "[37mPOST /_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:22] "[37mGET /_dash-component-suites/dash_core_components/async-dropdown.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:22] "[37mPOST /_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:23] "[37mGET /_dash-component-suites/dash_core_components/async-graph.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:23] "[37mPOST /_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:08:23] "[37mGET /_dash-component-suites/dash_table/async-table.js.map HTTP/1.1[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:09:01] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:18:09] "[37mGET /dash HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:20:06] "[37mGET /dash HTTP/1.0[0m" 200 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Apr/2020 09:31:00] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [08/Apr/2020 09:31:04] "[33mGET / HTTP/1.0[0m" 404 -
+116.15.25.75 - - [08/Apr/2020 09:31:13] "[37mGET /dash/ HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:14] "[37mGET /dash/_dash-layout HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:14] "[37mGET /dash/_dash-dependencies HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:14] "[37mGET /dash/_dash-component-suites/dash_table/bundle.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:14] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components-shared.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:14] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:14] "[37mGET /dash/_dash-component-suites/dash_html_components/dash_html_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:15] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:15] "[37mGET /dash/_favicon.ico?v=1.9.1 HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:16] "[37mGET /dash/_dash-component-suites/dash_core_components/async-dropdown.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:16] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:16] "[37mGET /dash/_dash-component-suites/dash_core_components/async-graph.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:16] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:31:17] "[37mGET /dash/_dash-component-suites/dash_table/async-table.js.map HTTP/1.1[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:31:52] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [08/Apr/2020 09:32:36] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [08/Apr/2020 09:32:40] "[33mGET / HTTP/1.0[0m" 404 -
+116.15.25.75 - - [08/Apr/2020 09:32:48] "[37mGET /dash/ HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:49] "[37mGET /dash/_dash-dependencies HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:49] "[37mGET /dash/_dash-layout HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:50] "[37mGET /dash/_dash-component-suites/dash_table/bundle.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:50] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components-shared.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:50] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:50] "[37mGET /dash/_dash-component-suites/dash_html_components/dash_html_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:50] "[37mGET /dash/_favicon.ico?v=1.9.1 HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:51] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:51] "[37mGET /dash/_dash-component-suites/dash_core_components/async-dropdown.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:51] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:51] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:51] "[37mGET /dash/_dash-component-suites/dash_core_components/async-graph.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:52] "[37mGET /dash/_dash-component-suites/dash_table/async-table.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:58] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:32:58] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+Exception on /dash/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1461, in dispatch
+    response.set_data(self.callback_map[output]["callback"](*args))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1341, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "index.py", line 58, in draw_graph
+    showscale=True
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/graph_objs/__init__.py", line 38588, in __init__
+    self._process_kwargs(**dict(arg, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3030, in _process_kwargs
+    self[k] = v
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3500, in __setitem__
+    res[prop[-1]] = value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3490, in __setitem__
+    self._set_prop(prop, value)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3777, in _set_prop
+    raise err
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3772, in _set_prop
+    val = validator.validate_coerce(val)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 1339, in validate_coerce
+    self.raise_invalid_elements(invalid_els)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 298, in raise_invalid_elements
+    valid_clr_desc=self.description(),
+ValueError: 
+    Invalid element(s) received for the 'color' property of scatter.marker
+        Invalid elements include: ['low fat', 'low fat', 'low fat', 'low fat', 'low fat', 'low fat', 'low fat', 'low fat', 'low fat', 'low fat']
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+116.15.25.75 - - [08/Apr/2020 09:32:59] "[35m[1mPOST /dash/_dash-update-component HTTP/1.1[0m" 500 -
+116.15.25.75 - - [08/Apr/2020 09:33:26] "[37mGET /dash/ HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:27] "[37mGET /dash/_dash-dependencies HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:27] "[37mGET /dash/_dash-layout HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:27] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components-shared.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:27] "[37mGET /dash/_dash-component-suites/dash_table/bundle.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:27] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:27] "[37mGET /dash/_dash-component-suites/dash_html_components/dash_html_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:28] "[37mGET /dash/_favicon.ico?v=1.9.1 HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:28] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:28] "[37mGET /dash/_dash-component-suites/dash_core_components/async-dropdown.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:29] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:29] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:29] "[37mGET /dash/_dash-component-suites/dash_core_components/async-graph.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:33:29] "[37mGET /dash/_dash-component-suites/dash_table/async-table.js.map HTTP/1.1[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:33:32] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [08/Apr/2020 09:34:37] "[33mGET  HTTP/1.0[0m" 404 -
+116.15.25.75 - - [08/Apr/2020 09:34:52] "[33mGET / HTTP/1.1[0m" 404 -
+116.15.25.75 - - [08/Apr/2020 09:34:58] "[37mGET /dash/ HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:34:59] "[37mGET /dash/_dash-component-suites/dash_table/bundle.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:34:59] "[37mGET /dash/_dash-layout HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:34:59] "[37mGET /dash/_dash-dependencies HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:34:59] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components-shared.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:34:59] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:34:59] "[37mGET /dash/_dash-component-suites/dash_html_components/dash_html_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:35:00] "[37mGET /dash/_dash-component-suites/dash_core_components/async-dropdown.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:35:00] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:35:01] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:35:01] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:35:01] "[37mGET /dash/_dash-component-suites/dash_table/async-table.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:35:01] "[37mGET /dash/_dash-component-suites/dash_core_components/async-graph.js.map HTTP/1.1[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:37:34] "[33mGET  HTTP/1.0[0m" 404 -
+127.0.0.1 - - [08/Apr/2020 09:38:24] "[33mGET  HTTP/1.0[0m" 404 -
+116.15.25.75 - - [08/Apr/2020 09:38:39] "[37mGET /dash/ HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:40] "[37mGET /dash/_dash-layout HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:40] "[37mGET /dash/_dash-dependencies HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:40] "[37mGET /dash/_dash-component-suites/dash_table/bundle.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:40] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components-shared.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:40] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:41] "[37mGET /dash/_favicon.ico?v=1.9.1 HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:41] "[37mGET /dash/_dash-component-suites/dash_html_components/dash_html_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:41] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:41] "[37mGET /dash/_dash-component-suites/dash_core_components/async-dropdown.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:42] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:42] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:42] "[37mGET /dash/_dash-component-suites/dash_table/async-table.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:38:43] "[37mGET /dash/_dash-component-suites/dash_core_components/async-graph.js.map HTTP/1.1[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:40:09] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [08/Apr/2020 09:40:24] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [08/Apr/2020 09:40:27] "[33mGET / HTTP/1.0[0m" 404 -
+116.15.25.75 - - [08/Apr/2020 09:40:31] "[37mGET /dash/ HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:32] "[37mGET /dash/_dash-layout HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:32] "[37mGET /dash/_dash-dependencies HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:32] "[37mGET /dash/_dash-component-suites/dash_table/bundle.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:32] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components-shared.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:32] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:32] "[37mGET /dash/_dash-component-suites/dash_html_components/dash_html_components.min.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:33] "[37mGET /dash/_favicon.ico?v=1.9.1 HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:33] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:33] "[37mGET /dash/_dash-component-suites/dash_core_components/async-dropdown.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:34] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:34] "[37mPOST /dash/_dash-update-component HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:34] "[37mGET /dash/_dash-component-suites/dash_core_components/async-graph.js.map HTTP/1.1[0m" 200 -
+116.15.25.75 - - [08/Apr/2020 09:40:34] "[37mGET /dash/_dash-component-suites/dash_table/async-table.js.map HTTP/1.1[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:40:44] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [08/Apr/2020 09:41:27] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [08/Apr/2020 09:41:31] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [08/Apr/2020 09:42:28] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:28] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:28] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:29] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:29] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:29] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:30] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:30] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:30] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:31] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:31] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:31] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:32] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:32] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:32] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:33] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:33] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:34] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:34] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:34] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:35] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:35] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:36] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:36] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:36] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:37] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:37] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:37] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:38] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:38] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:38] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:38] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:39] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:39] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:39] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:40] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:40] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:40] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:41] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:41] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:46] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:47] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:47] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:47] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:48] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:48] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:48] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:49] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:49] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:49] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:50] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:50] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:50] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:50] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:51] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:51] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:51] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:52] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:52] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:42:52] "[32mGET /dash HTTP/1.0[0m" 308 -
+127.0.0.1 - - [08/Apr/2020 09:43:30] "[37mGET /dash/ HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:31] "[37mGET /dash/assets/dashboard.css?m=1586332338.5886652 HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:31] "[37mGET /dash/_dash-component-suites/dash_renderer/react@16.v1_2_2m1586332446.8.6.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:31] "[37mGET /dash/_dash-component-suites/dash_renderer/polyfill@7.v1_2_2m1586332446.7.0.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:31] "[37mGET /dash/_dash-component-suites/dash_renderer/react-dom@16.v1_2_2m1586332446.8.6.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:31] "[37mGET /dash/_dash-component-suites/dash_renderer/prop-types@15.v1_2_2m1586332446.7.2.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:31] "[37mGET /dash/_dash-component-suites/dash_table/bundle.v4_6_1m1586332445.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:31] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components-shared.v1_8_1m1586332443.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:31] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components.v1_8_1m1586332443.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:31] "[37mGET /dash/_dash-component-suites/dash_bootstrap_components/_components/dash_bootstrap_components.v0_9_1m1586332441.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:32] "[37mGET /dash/_dash-component-suites/dash_html_components/dash_html_components.v1_0_2m1586332444.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:32] "[37mGET /dash/_dash-component-suites/dash_renderer/dash_renderer.v1_2_2m1586332446.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:32] "[37mGET /dash/_dash-component-suites/dash_table/bundle.js.map HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:33] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components-shared.js.map HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:33] "[37mGET /dash/_dash-component-suites/dash_core_components/dash_core_components.min.js.map HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:33] "[37mGET /dash/_dash-component-suites/dash_html_components/dash_html_components.min.js.map HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:33] "[37mGET /dash/_dash-layout HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:33] "[37mGET /dash/_dash-dependencies HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:34] "[37mGET /dash/_dash-component-suites/dash_core_components/async-dropdown.v1_8_1m1582838719.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:34] "[37mGET /dash/_favicon.ico?v=1.9.1 HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:34] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:34] "[37mGET /dash/_dash-component-suites/dash_core_components/async-graph.v1_8_1m1582838719.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:34] "[37mGET /dash/_dash-component-suites/dash_table/async-table.v4_6_1m1582839172.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:34] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:34] "[37mGET /dash/_dash-component-suites/dash_core_components/async-plotlyjs.v1_8_1m1582838719.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:35] "[37mGET /dash/_dash-component-suites/dash_core_components/async-dropdown.js.map HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:35] "[37mGET /dash/_dash-component-suites/dash_core_components/async-graph.js.map HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:36] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:43:36] "[37mGET /dash/_dash-component-suites/dash_table/async-table.js.map HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:44:07] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:44:08] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:44:08] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:44:22] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:44:23] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+Exception on /dash/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1461, in dispatch
+    response.set_data(self.callback_map[output]["callback"](*args))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1341, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "index.py", line 58, in draw_graph
+    showscale=True
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/graph_objs/__init__.py", line 38588, in __init__
+    self._process_kwargs(**dict(arg, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3030, in _process_kwargs
+    self[k] = v
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3500, in __setitem__
+    res[prop[-1]] = value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3490, in __setitem__
+    self._set_prop(prop, value)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3777, in _set_prop
+    raise err
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3772, in _set_prop
+    val = validator.validate_coerce(val)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 1339, in validate_coerce
+    self.raise_invalid_elements(invalid_els)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 298, in raise_invalid_elements
+    valid_clr_desc=self.description(),
+ValueError: 
+    Invalid element(s) received for the 'color' property of scatter.marker
+        Invalid elements include: ['1', 'rh', '92.03103637695312', '43.6900749206543', '63.43879318237305', '12.65715789794922', '-63.10466766357422', '-51.19189453125', '0.5400829315185547', '10.650232315063477']
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+127.0.0.1 - - [08/Apr/2020 09:44:23] "[35m[1mPOST /dash/_dash-update-component HTTP/1.0[0m" 500 -
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [08/Apr/2020 09:46:33] "[37mGET /dash/ HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:46:34] "[37mGET /dash/_dash-layout HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:46:34] "[37mGET /dash/_dash-dependencies HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:46:35] "[37mGET /dash/_favicon.ico?v=1.9.1 HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:46:35] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:46:35] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:46:36] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:46:51] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:46:52] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+Exception on /dash/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1461, in dispatch
+    response.set_data(self.callback_map[output]["callback"](*args))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1341, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "index.py", line 58, in draw_graph
+    showscale=True
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/graph_objs/__init__.py", line 38588, in __init__
+    self._process_kwargs(**dict(arg, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3030, in _process_kwargs
+    self[k] = v
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3500, in __setitem__
+    res[prop[-1]] = value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3490, in __setitem__
+    self._set_prop(prop, value)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3777, in _set_prop
+    raise err
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3772, in _set_prop
+    val = validator.validate_coerce(val)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 1339, in validate_coerce
+    self.raise_invalid_elements(invalid_els)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 298, in raise_invalid_elements
+    valid_clr_desc=self.description(),
+ValueError: 
+    Invalid element(s) received for the 'color' property of scatter.marker
+        Invalid elements include: ['1', 'rh', '92.03103637695312', '43.6900749206543', '63.43879318237305', '12.65715789794922', '-63.10466766357422', '-51.19189453125', '0.5400829315185547', '10.650232315063477']
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+127.0.0.1 - - [08/Apr/2020 09:46:52] "[35m[1mPOST /dash/_dash-update-component HTTP/1.0[0m" 500 -
+Exception on /dash/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1461, in dispatch
+    response.set_data(self.callback_map[output]["callback"](*args))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1341, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "index.py", line 58, in draw_graph
+    showscale=True
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/graph_objs/__init__.py", line 38588, in __init__
+    self._process_kwargs(**dict(arg, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3030, in _process_kwargs
+    self[k] = v
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3500, in __setitem__
+    res[prop[-1]] = value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3490, in __setitem__
+    self._set_prop(prop, value)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3777, in _set_prop
+    raise err
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3772, in _set_prop
+    val = validator.validate_coerce(val)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 1339, in validate_coerce
+    self.raise_invalid_elements(invalid_els)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 298, in raise_invalid_elements
+    valid_clr_desc=self.description(),
+ValueError: 
+    Invalid element(s) received for the 'color' property of scatter.marker
+        Invalid elements include: ['1', 'rh', '92.03103637695312', '43.6900749206543', '63.43879318237305', '12.65715789794922', '-63.10466766357422', '-51.19189453125', '0.5400829315185547', '10.650232315063477']
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+127.0.0.1 - - [08/Apr/2020 09:46:54] "[35m[1mPOST /dash/_dash-update-component HTTP/1.0[0m" 500 -
+Exception on /dash/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1461, in dispatch
+    response.set_data(self.callback_map[output]["callback"](*args))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1341, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "index.py", line 58, in draw_graph
+    showscale=True
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/graph_objs/__init__.py", line 38588, in __init__
+    self._process_kwargs(**dict(arg, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3030, in _process_kwargs
+    self[k] = v
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3500, in __setitem__
+    res[prop[-1]] = value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3490, in __setitem__
+    self._set_prop(prop, value)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3777, in _set_prop
+    raise err
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3772, in _set_prop
+    val = validator.validate_coerce(val)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 1339, in validate_coerce
+    self.raise_invalid_elements(invalid_els)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 298, in raise_invalid_elements
+    valid_clr_desc=self.description(),
+ValueError: 
+    Invalid element(s) received for the 'color' property of scatter.marker
+        Invalid elements include: ['1', 'rh', '92.03103637695312', '43.6900749206543', '63.43879318237305', '12.65715789794922', '-63.10466766357422', '-51.19189453125', '0.5400829315185547', '10.650232315063477']
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+127.0.0.1 - - [08/Apr/2020 09:46:59] "[35m[1mPOST /dash/_dash-update-component HTTP/1.0[0m" 500 -
+127.0.0.1 - - [08/Apr/2020 09:47:01] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+Exception on /dash/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1461, in dispatch
+    response.set_data(self.callback_map[output]["callback"](*args))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1341, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "index.py", line 58, in draw_graph
+    showscale=True
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/graph_objs/__init__.py", line 38588, in __init__
+    self._process_kwargs(**dict(arg, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3030, in _process_kwargs
+    self[k] = v
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3500, in __setitem__
+    res[prop[-1]] = value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3490, in __setitem__
+    self._set_prop(prop, value)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3777, in _set_prop
+    raise err
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3772, in _set_prop
+    val = validator.validate_coerce(val)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 1339, in validate_coerce
+    self.raise_invalid_elements(invalid_els)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 298, in raise_invalid_elements
+    valid_clr_desc=self.description(),
+ValueError: 
+    Invalid element(s) received for the 'color' property of scatter.marker
+        Invalid elements include: ['1', 'rh', '92.03103637695312', '43.6900749206543', '63.43879318237305', '12.65715789794922', '-63.10466766357422', '-51.19189453125', '0.5400829315185547', '10.650232315063477']
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+127.0.0.1 - - [08/Apr/2020 09:47:03] "[35m[1mPOST /dash/_dash-update-component HTTP/1.0[0m" 500 -
+127.0.0.1 - - [08/Apr/2020 09:47:06] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+Exception on /dash/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1461, in dispatch
+    response.set_data(self.callback_map[output]["callback"](*args))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1341, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "index.py", line 58, in draw_graph
+    showscale=True
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/graph_objs/__init__.py", line 38588, in __init__
+    self._process_kwargs(**dict(arg, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3030, in _process_kwargs
+    self[k] = v
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3500, in __setitem__
+    res[prop[-1]] = value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3490, in __setitem__
+    self._set_prop(prop, value)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3777, in _set_prop
+    raise err
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3772, in _set_prop
+    val = validator.validate_coerce(val)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 1339, in validate_coerce
+    self.raise_invalid_elements(invalid_els)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 298, in raise_invalid_elements
+    valid_clr_desc=self.description(),
+ValueError: 
+    Invalid element(s) received for the 'color' property of scatter.marker
+        Invalid elements include: ['1', 'rh', '92.03103637695312', '43.6900749206543', '63.43879318237305', '12.65715789794922', '-63.10466766357422', '-51.19189453125', '0.5400829315185547', '10.650232315063477']
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+127.0.0.1 - - [08/Apr/2020 09:47:08] "[35m[1mPOST /dash/_dash-update-component HTTP/1.0[0m" 500 -
+Exception on /dash/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1461, in dispatch
+    response.set_data(self.callback_map[output]["callback"](*args))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1341, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "index.py", line 58, in draw_graph
+    showscale=True
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/graph_objs/__init__.py", line 38588, in __init__
+    self._process_kwargs(**dict(arg, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3030, in _process_kwargs
+    self[k] = v
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3500, in __setitem__
+    res[prop[-1]] = value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3490, in __setitem__
+    self._set_prop(prop, value)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3777, in _set_prop
+    raise err
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3772, in _set_prop
+    val = validator.validate_coerce(val)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 1339, in validate_coerce
+    self.raise_invalid_elements(invalid_els)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 298, in raise_invalid_elements
+    valid_clr_desc=self.description(),
+ValueError: 
+    Invalid element(s) received for the 'color' property of scatter.marker
+        Invalid elements include: ['1', 'rh', '92.03103637695312', '43.6900749206543', '63.43879318237305', '12.65715789794922', '-63.10466766357422', '-51.19189453125', '0.5400829315185547', '10.650232315063477']
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+127.0.0.1 - - [08/Apr/2020 09:47:10] "[35m[1mPOST /dash/_dash-update-component HTTP/1.0[0m" 500 -
+127.0.0.1 - - [08/Apr/2020 09:47:12] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:47:15] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:47:18] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:47:20] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+Exception on /dash/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1461, in dispatch
+    response.set_data(self.callback_map[output]["callback"](*args))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/dash/dash.py", line 1341, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "index.py", line 58, in draw_graph
+    showscale=True
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/graph_objs/__init__.py", line 38588, in __init__
+    self._process_kwargs(**dict(arg, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3030, in _process_kwargs
+    self[k] = v
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3500, in __setitem__
+    res[prop[-1]] = value
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3490, in __setitem__
+    self._set_prop(prop, value)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3777, in _set_prop
+    raise err
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/plotly/basedatatypes.py", line 3772, in _set_prop
+    val = validator.validate_coerce(val)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 1339, in validate_coerce
+    self.raise_invalid_elements(invalid_els)
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/_plotly_utils/basevalidators.py", line 298, in raise_invalid_elements
+    valid_clr_desc=self.description(),
+ValueError: 
+    Invalid element(s) received for the 'color' property of scatter.marker
+        Invalid elements include: ['1', 'lh', '-25.82785606384277', '-7.910674571990968', '-74.94315338134766', '-106.99407958984376', '23.60533905029297', '4.688098907470703', '-63.69575881958008', '-52.53929138183594']
+
+    The 'color' property is a color and may be specified as:
+      - A hex string (e.g. '#ff0000')
+      - An rgb/rgba string (e.g. 'rgb(255,0,0)')
+      - An hsl/hsla string (e.g. 'hsl(0,100%,50%)')
+      - An hsv/hsva string (e.g. 'hsv(0,100%,100%)')
+      - A named CSS color:
+            aliceblue, antiquewhite, aqua, aquamarine, azure,
+            beige, bisque, black, blanchedalmond, blue,
+            blueviolet, brown, burlywood, cadetblue,
+            chartreuse, chocolate, coral, cornflowerblue,
+            cornsilk, crimson, cyan, darkblue, darkcyan,
+            darkgoldenrod, darkgray, darkgrey, darkgreen,
+            darkkhaki, darkmagenta, darkolivegreen, darkorange,
+            darkorchid, darkred, darksalmon, darkseagreen,
+            darkslateblue, darkslategray, darkslategrey,
+            darkturquoise, darkviolet, deeppink, deepskyblue,
+            dimgray, dimgrey, dodgerblue, firebrick,
+            floralwhite, forestgreen, fuchsia, gainsboro,
+            ghostwhite, gold, goldenrod, gray, grey, green,
+            greenyellow, honeydew, hotpink, indianred, indigo,
+            ivory, khaki, lavender, lavenderblush, lawngreen,
+            lemonchiffon, lightblue, lightcoral, lightcyan,
+            lightgoldenrodyellow, lightgray, lightgrey,
+            lightgreen, lightpink, lightsalmon, lightseagreen,
+            lightskyblue, lightslategray, lightslategrey,
+            lightsteelblue, lightyellow, lime, limegreen,
+            linen, magenta, maroon, mediumaquamarine,
+            mediumblue, mediumorchid, mediumpurple,
+            mediumseagreen, mediumslateblue, mediumspringgreen,
+            mediumturquoise, mediumvioletred, midnightblue,
+            mintcream, mistyrose, moccasin, navajowhite, navy,
+            oldlace, olive, olivedrab, orange, orangered,
+            orchid, palegoldenrod, palegreen, paleturquoise,
+            palevioletred, papayawhip, peachpuff, peru, pink,
+            plum, powderblue, purple, red, rosybrown,
+            royalblue, rebeccapurple, saddlebrown, salmon,
+            sandybrown, seagreen, seashell, sienna, silver,
+            skyblue, slateblue, slategray, slategrey, snow,
+            springgreen, steelblue, tan, teal, thistle, tomato,
+            turquoise, violet, wheat, white, whitesmoke,
+            yellow, yellowgreen
+      - A number that will be interpreted as a color
+        according to scatter.marker.colorscale
+      - A list or array of any of the above
+127.0.0.1 - - [08/Apr/2020 09:47:23] "[35m[1mPOST /dash/_dash-update-component HTTP/1.0[0m" 500 -
+127.0.0.1 - - [08/Apr/2020 09:47:26] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:47:30] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:47:31] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:47:31] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:47:36] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:47:41] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:47:45] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:47:49] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:07] "[37mGET /dash/ HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:08] "[37mGET /dash/_dash-dependencies HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:08] "[37mGET /dash/_dash-layout HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:08] "[37mGET /dash/_favicon.ico?v=1.9.1 HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:08] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:09] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:09] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:14] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:14] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:14] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:22] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:23] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
+127.0.0.1 - - [08/Apr/2020 09:48:30] "[37mPOST /dash/_dash-update-component HTTP/1.0[0m" 200 -
