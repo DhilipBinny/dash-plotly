@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-python-machinelearning
+FROM python:3.7
 
 LABEL maintainer="Binny"
 
