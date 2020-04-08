@@ -1,0 +1,36 @@
+/* Base Styles
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+html {
+  font-size: 75%;
+}
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  /* color:rgb(16, 42, 59); */
+  /* background-image: url("background.jpg"); */
+  /* background-size: 2560px 1570px; */
+  /* background-color: black; */
+  /* color:white  */
+}
+
+.dashboard-title {
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  background: #9ccdff;
+  /* color: black; */
+  color: rgb(16, 42, 59);
+}
+
+.sub-title {
+  text-align: center;
+  background: black;
+  color: crimson;
+}
